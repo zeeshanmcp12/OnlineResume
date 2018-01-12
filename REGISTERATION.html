@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>
+	Register yourself!
+</title>
+</head>
+
+<body>
+	<h1>Register Yourself!</h1>
+	<form action="somefile.php" method="post"> <!--by using post in method credentials will not append in URL and will remain hidden -->
+	<table>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="username"/> </td>
+		</tr>
+		<tr>
+			<td>Password </td>
+			<td><input type="password" name="password"/> </td>
+		</tr>
+		<tr>
+			<td>Gender </td>
+			<td><input type="radio" name="gender"/>M
+				<input type="radio" name="gender"/>F</td>
+		</tr>
+		<tr>
+			<td>Course(s)</td>
+			<td><input type="checkbox" name="php"/>PHP
+				<input type="checkbox" name="mysql"/>MySQL
+				<input type="checkbox" name="C"/>C
+				<input type="checkbox" name="C++"/>C++</td>
+		</tr>
+		<tr>
+			<td>Method of Learning</td>
+			<td><select>
+					<option>Class</option>
+					<option>LMS Portal</option>
+					<option>Skype Session</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="Register"/>
+			<input type="reset"/></td>
+		</tr>
+	</table>
+	</form>
+	<a href="HOME.html"> Back to Homepage</a>
+</body>
+</html>
