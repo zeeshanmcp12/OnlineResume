@@ -3,27 +3,41 @@
 <html>
 	<head>
 	<title> PROJECT </title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+		<style>
+		#project-heading{
+			font-size: 130px;
+			text-align: center;
+			font-weight: bold;
+			margin: auto;
+		}
+		.back-to-homepage{
+			font-size: 22px;
+			position: relative;
+			padding-top:2%;
+			text-decoration:none;
+			color:blue;
+		}
+	</style>
 	</head>
 	
 <body>
-	<h1>Projects</h1>
-	<iframe src="https://www.python.org/" name="externalsite"></iframe>
+	<div id="body">
+		<div id="header">
+			<div id="name"> <p id="project-heading">PROJECTS</p></div>
+		</div>
 
-	<style>
-		iframe
-		{
-			width: 100%;
-			height:300px;
-		}
-	</style>
+	<iframe height="300px" width="930px" src="https://www.yahoo.com" name="iframe_a"></iframe>
+	
 	
 	<h3>PROJECTS</h3>
 	<ol>
-		<li><a href="https://www.youtube.com/user/Moazafonline/videos" target="externalsite">CorelDraw Tutorial Videos</a></li>
-		<li><a href="https://github.com/zeeshanmcp12/Tel-inbound" target="externalsite">Automate of URLs</a></li>
+		<li><a class="linkcolor" href="https://www.youtube.com/user/Moazafonline/videos" target="iframe_a">CorelDraw Tutorial Videos</a></li>
+		<li><a class="linkcolor" href="https://github.com/zeeshanmcp12/Tel-inbound" target="iframe_a">Automate of URLs</a></li>
 	</ol>
 	
-	<a href="index.html">Back to Homepage</a>
+	<div class="back-to-homepage"> <a class="back-to-homepage" href="index.html"> Back to Homepage</a></div>
+	</div>
 	
 
 
